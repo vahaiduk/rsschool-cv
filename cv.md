@@ -36,3 +36,10 @@ I'm a punctual and organized person. I have always set myself goals and it motiv
   return mass;
 };
 ```
+
+
+# Education
+
+
+ * Belarusian State University
+    * Faculty of Applied Mathematics and Computer Science
