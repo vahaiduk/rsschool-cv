@@ -43,3 +43,7 @@ I'm a punctual and organized person. I have always set myself goals and it motiv
 
  * Belarusian State University
     * Faculty of Applied Mathematics and Computer Science
+
+# Languages
+
+* **English** - A2
