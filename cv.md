@@ -21,7 +21,8 @@ I'm a punctual and organized person. I have always set myself goals and it motiv
 
 # Code example
 
-```String.prototype.toJadenCase = function () {
+```javascript
+String.prototype.toJadenCase = function () {
   let arr_str = this.split('');
   let mass = '';
   if (arr_str[0] != arr_str[0].toUpperCase()){
