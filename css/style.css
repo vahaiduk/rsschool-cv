@@ -6,6 +6,56 @@
     font-family: 'Raleway', sans-serif;
 }
 
+@media (min-width: 600px){
+.cv {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cv_left{
+    width: 40%;
+    margin:0;
+}
+.cv_right{
+    width:60%;
+}
+.footer{
+    display: inline-flex;
+}
+.container .footer .git{
+    width: 33%;
+}
+
+.container .footer .date{
+    width: 33%;
+}
+
+.container .footer .rss{
+    width: 33%;
+}
+}
+
+@media (min-width: 800px){
+     .cv .cv_right .header .name{
+        font-size: 60px !important;
+    }
+     .pre_formatter{
+        font-family: monospace;
+        font-size: 10px !important;
+    }
+     .cv_left{
+        width: 30%;
+        margin:0;
+    }
+     .cv_right{
+        width:70%;
+    }
+    .header{
+        margin-top: 50px;
+    }
+}
+
+
+
 .container{
     width: 100%;
     max-width: 1200px;
@@ -33,11 +83,9 @@ body{
 
 .cv{
     width:auto;
-    display:flex;
 }
 
 .cv .cv_left{
-    width:30%;
     background: #013b49;
 }
 
@@ -80,10 +128,12 @@ body{
 
 .cv .cv_left ul li .data{
     color:white;
+    font-size: 14px;
 }
 
 .cv .cv_left ul li .data a{
     color:white;
+    font-size: 14px;
 }
 
 .cv .cv_left .cv_skills ul li{
@@ -100,7 +150,6 @@ body{
 }
 
 .cv .cv_right{
-    width:70%;
     background: #edeff0;
 }
 
@@ -111,7 +160,6 @@ body{
     padding: 50px 50px;
     text-transform: uppercase;
     margin-bottom: 50px;
-    margin-top: 50px;
 }
 
 .cv .cv_right .content_right{
@@ -124,7 +172,7 @@ body{
 }
 
 .cv .cv_right .header .name{
-    font-size: 60px;
+    font-size: 20px;
     color:yellow;
     margin-bottom: 20px;
 }
@@ -138,10 +186,10 @@ body{
     font-weight: 700;
 }
 
-pre{
-    font-family: monospace;
-	font-size: 12px;
+.pre_formatter{
+	font-size: 14px;
 	padding: 10px;
+    margin-right: 0;
 }
 
 .cv .cv_right ul li .date {
@@ -172,25 +220,24 @@ pre{
     width:100%;
     max-width: 1200px;
     background: #013b49;
-    display: inline-flex;
     padding: 20px;
 }
 
 .container .footer .git{
-    width: 33%;
+    width: 100%;
     text-align: center;
     color:yellow;
 }
 
 .container .footer .date{
-    width: 33%;
+    width: 100%;
     text-align: center;
     color:yellow;;
     margin: 0px 0px 0px 0px;
 }
 
 .container .footer .rss{
-    width: 33%;
+    width: 100%;
     text-align: center;
     color:yellow;
 }
@@ -220,3 +267,8 @@ pre{
 .cv .cv_right .bold{
     align-items: center;
 }
+
+.cv_right{
+    display: block;
+}
+
