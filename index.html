@@ -9,10 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     
-    <script src='http://yastatic.net/highlightjs/8.2/highlight.min.js'></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/base16/bright.min.css' rel='stylesheet'/>
-
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/259966dfca.js" crossorigin="anonymous"></script>
     <title>Haiduk CV RSS</title>
@@ -242,19 +238,19 @@
                             <p class="bold">Code example</p>
                         </div>
                         <pre><code class="pre_formatter">
-    String.prototype.toJadenCase = function () {
-        let arr_str = this.split('');
-        let mass = '';
-        if (arr_str[0] != arr_str[0].toUpperCase()){
-        arr_str[0] = arr_str[0].toUpperCase();
+    <span class="str">String</span>.prototype.toJadenCase = <span class="func">function</span> () {
+        <span class="reserved">let</span> arr_str = <span class="str">this</span>.<span class="func">split</span>('');
+        <span class="reserved">let</span> mass = '';
+        <span class="reserved">if</span> (arr_str[0] != arr_str[0].<span class="func">toUpperCase</span>()){
+        arr_str[0] = arr_str[0].<span class="func">toUpperCase</span>();
         }
-        for (let i = 0; i &lt;   arr_str.length; i++){
-        if (arr_str[i] == ' '){
-            arr_str[i+1] = arr_str[i+1].toUpperCase();
+        <span class="reserved">for</span> (<span class="reserved">let</span> i = 0; i &lt;   arr_str.length; i++){
+            <span class="reserved">if</span> (arr_str[i] == ' '){
+            arr_str[i+1] = arr_str[i+1].<span class="func">toUpperCase()</span>;
         }
         mass = mass + arr_str[i];
         }
-        return mass;
+        <span class="reserved">return</span> mass;
     };</code>
                         </pre>
                     </div>
