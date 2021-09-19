@@ -40,7 +40,7 @@
     }
      .pre_formatter{
         font-family: monospace;
-        font-size: 10px !important;
+        font-size: 14px !important;
     }
      .cv_left{
         width: 30%;
@@ -187,9 +187,13 @@ body{
 }
 
 .pre_formatter{
-	font-size: 14px;
-	padding: 10px;
+    font-size: 12px;
     margin-right: 0;
+    display: block;
+    padding: 1em;
+    overflow-x: auto;
+    background: black;
+    color:#edeff0
 }
 
 .cv .cv_right ul li .date {
@@ -272,3 +276,16 @@ body{
     display: block;
 }
 
+/* ------COLOR------ */
+.reserved{
+    color:#cb5ada;
+    font-family: monospace;
+}
+
+.func{
+    color: #13cdfc;
+}
+
+.str{
+    color:rgb(102, 247, 102)
+}
