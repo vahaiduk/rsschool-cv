@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <script src='http://yastatic.net/highlightjs/8.2/highlight.min.js'></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/base16/bright.min.css' rel='stylesheet'/>
 
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/259966dfca.js" crossorigin="anonymous"></script>
@@ -48,7 +52,7 @@
                                 <li>
                                     <div class="icon"><i class="fab fa-github"></i></div>
                                     <div class="data">
-                                        <a href="https://github.com/vahaiduk">https://github.com/vahaiduk</a>
+                                        <h6><a href="https://github.com/vahaiduk">https://github.com/vahaiduk</a></h6>
                                     </div>
                                 </li>
                             </ul>
@@ -214,18 +218,18 @@
                     <div class="cv_item about">
                         <div class="title">
                             <div class="icon"><i class="fas fa-clipboard-list"></i></div>
-                            <p class="bold">About me</p>
+                            <h3 class="bold">About me</h3>
                         </div>
-                        <p class="semi-bold">I’m a punctual and organized person. I have always set myself goals and it motivates me to work hard. At now my goal is to gain knowledge in the field of front-end development.</p>
+                        <h4 class="semi-bold">I’m a punctual and organized person. I have always set myself goals and it motivates me to work hard. At now my goal is to gain knowledge in the field of front-end development.</h4>
                     </div>
                     <div class="cv_item education">
                         <div class="title">
                             <div class="icon"><i class="fas fa-university"></i></div>
-                            <p class="bold">Education</p>
+                            <h3 class="bold">Education</h3>
                         </div>
                         <ul>
                             <li>
-                                <div class="date">2012 - 2017</div>
+                                <h5 class="date">2012 - 2017</h5>
                                 <div class="info">
                                 <p class="semi-bold">Belarusian State University. Faculty of Applied Mathematics and Computer Science</p>
                                 </div>
@@ -237,34 +241,34 @@
                             <div class="icon"><i class="fas fa-laptop-code"></i></div>
                             <p class="bold">Code example</p>
                         </div>
-                        <pre class="semi-bold">
-                            String.prototype.toJadenCase = function () {
-                                let arr_str = this.split('');
-                                let mass = '';
-                                if (arr_str[0] != arr_str[0].toUpperCase()){
-                                arr_str[0] = arr_str[0].toUpperCase();
-                                }
-                                for (let i = 0; i &lt;   arr_str.length; i++){
-                                if (arr_str[i] == ' '){
-                                    arr_str[i+1] = arr_str[i+1].toUpperCase();
-                                }
-                                mass = mass + arr_str[i];
-                                }
-                                return mass;
-                            };
+                        <pre><code class="pre_formatter">
+    String.prototype.toJadenCase = function () {
+        let arr_str = this.split('');
+        let mass = '';
+        if (arr_str[0] != arr_str[0].toUpperCase()){
+        arr_str[0] = arr_str[0].toUpperCase();
+        }
+        for (let i = 0; i &lt;   arr_str.length; i++){
+        if (arr_str[i] == ' '){
+            arr_str[i+1] = arr_str[i+1].toUpperCase();
+        }
+        mass = mass + arr_str[i];
+        }
+        return mass;
+    };</code>
                         </pre>
                     </div>
                     <div class="cv_item language">
                         <div class="title">
                             <div class="icon"><i class="fas fa-globe-asia"></i></div>
-                            <p class="bold">Languages</p>
+                            <h3 class="bold">Languages</h3>
                         </div>
                         <ul>
                             <li>
-                                <p class="semi-bold">Russian</p>
+                                <h4 class="semi-bold">Russian</h4>
                             </li>
                             <li>
-                                <p class="semi-bold">English (A2)</p>
+                                <h4 class="semi-bold">English (A2)</h4>
                             </li>
                         </ul>
                         
